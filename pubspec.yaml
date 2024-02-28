@@ -1,0 +1,58 @@
+name: flutterweatherapp
+description: HeyFlutter weather app competition
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_screenutil:
+  dio:
+  either_dart:
+  flutter_svg_provider:
+  get_it:
+  connectivity_plus:
+  flutter_bloc:
+  equatable:
+  geolocator:
+  geocoding:
+  lottie:
+  weather_icons:
+  glassmorphism_ui:
+  path_provider:
+  sembast:
+  intl:
+  shared_preferences:
+  permission_handler:
+  home_widget:
+  localization:
+  shimmer:
+  fluttertoast:
+  firebase_core:
+  firebase_auth:
+  google_sign_in:
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/lottie/
+    - assets/json/
+    - assets/translations/
